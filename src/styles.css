@@ -18,18 +18,19 @@
       monospace;
   }
   
-  section {
+  .App {
     display:flex;
+    flex-direction: row;
   }
   
-  section .weather {
+  div .weatherForecast {
    border: 1px solid #ccc;
    flex: 1;
    padding:10px;
    text-align:center;
   }
   
-  .weather span {
+  .weather {
     font-weight: bold;
   }
   

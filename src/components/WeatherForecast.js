@@ -5,7 +5,7 @@ import Conditions from "./Conditions"
 
 const WeatherForecast = ({ img, conditions, time }) => {
     return (
-        <div className="weather">
+        <div className="weatherForecast">
         <Image img={ img } />
         <Conditions conditions={ conditions }/>
         < Time time={ time }/>
